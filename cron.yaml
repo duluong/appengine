@@ -1,0 +1,6 @@
+cron:
+- description: "daily summary job"
+  url: /daily-mail
+  target: automation
+  schedule: every 24 hours from 06:00 to 06:05 
+  timezone: Asia/Tokyo
